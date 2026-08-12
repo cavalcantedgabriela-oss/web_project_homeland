@@ -1,0 +1,73 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 92px auto 0;
+  max-width: 830px;
+  padding: 0 148px;
+  box-sizing: content-box;
+}
+
+.intro__title {
+  font-size: 54px;
+  line-height: 1.07;
+  font-weight: 900;
+  margin: 0 0 40px;
+}
+
+.intro__quote {
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+
+.intro__author {
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 400;
+  text-align: right;
+  margin: 0 0 32px;
+}
+
+.intro__text {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Responsividade conforme orientado na Sprint */
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 24px;
+    max-width: 100%;
+    margin-top: 88px;
+  }
+
+  .intro__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    padding: 0 16px;
+    margin-top: 64px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .intro__quote,
+  .intro__author {
+    font-size: 16px;
+  }
+
+  .intro__text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
