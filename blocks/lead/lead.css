@@ -31,7 +31,6 @@
   object-fit: cover;
 }
 
-/* Tablet (768px) - Breakpoint 1024px */
 @media screen and (max-width: 1024px) {
   .lead {
     padding: 48px 24px 0;
@@ -48,7 +47,6 @@
   }
 }
 
-/* Mobile (320px) - Breakpoint 544px */
 @media screen and (max-width: 544px) {
   .lead {
     padding: 48px 16px 0;

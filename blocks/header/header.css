@@ -28,7 +28,6 @@
   text-transform: uppercase;
 }
 
-/* Tablet (768px) e Mobile (320px) */
 @media screen and (max-width: 768px) {
   .header {
     padding-top: 28px;

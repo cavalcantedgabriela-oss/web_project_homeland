@@ -36,7 +36,6 @@
   margin: 0;
 }
 
-/* Responsividade conforme orientado na Sprint */
 @media screen and (max-width: 1024px) {
   .intro {
     padding: 0 24px;
