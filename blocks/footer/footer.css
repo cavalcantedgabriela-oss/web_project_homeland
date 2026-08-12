@@ -4,14 +4,6 @@
   padding: 92px 0 24px;
 }
 
-.footer__copyright {
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.14;
-  font-weight: 400;
-  color: #ffffff;
-}
-
 @media screen and (max-width: 768px) {
   .footer {
     padding-top: 88px;
@@ -21,9 +13,5 @@
 @media screen and (max-width: 320px) {
   .footer {
     padding-top: 64px;
-  }
-
-  .footer__copyright {
-    font-size: 12px;
   }
 }
