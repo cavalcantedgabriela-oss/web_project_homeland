@@ -1,7 +1,9 @@
 .intro {
+  width: 100%;
   max-width: 690px;
   margin: 92px auto 0;
   padding: 0 48px;
+  box-sizing: border-box; /* Garante que o padding não estoure a tela */
 }
 
 .intro__title {
