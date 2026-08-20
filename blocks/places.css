@@ -3,8 +3,16 @@
   flex-direction: column;
   gap: 80px;
   max-width: 984px;
+  width: 100%;
   margin: 92px auto 0;
   padding: 0 48px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 0 24px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .places {
     margin-top: 64px;
     padding: 0 16px;
