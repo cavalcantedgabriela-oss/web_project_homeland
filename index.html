@@ -7,8 +7,7 @@
   <meta name="description" content="Projeto Homeland - Galeria de arte da TripleTen">
   <meta name="keywords" content="html, css, web, homeland, tripleten, galeria">
   <title>De Pátria para Pátria - TripleTen Art Gallery</title>
-
-  <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
@@ -18,21 +17,101 @@
     </header>
 
     <main class="content">
+      <!-- Seção Lead -->
       <section class="lead">
         <h1 class="lead__title">De Pátria para Pátria</h1>
         <p class="lead__subtitle">Uma jornada épica do Kentucky ao Burundi pelo País de Gales e Ucrânia</p>
         <img class="lead__image" src="./images/image.png" alt="Paisagem costeira com castelo ao fundo">
+        <p class="lead__caption">sua pátria</p>
       </section>
 
+      <!-- Seção Intro -->
       <section class="intro">
         <h2 class="intro__title">Conheça um pouco mais sobre a localização dos seus amigos</h2>
         <p class="intro__quote">Cada pessoa é um artista livre, chamado a transformar as condições, pensamentos e estruturas que moldam nossas vidas.</p>
-        <p class="intro__author">— Joseph Beuys</p>
+        <p class="intro__author">&mdash; Joseph Beuys</p>
         <p class="intro__text">
-          A cidade de TripleTen reuniu profissionais de diversos cantos do mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de apresentar histórias e fotos de algumas das pessoas que aqui trabalham.
+          A cidade de TripleTen reuniu profissionais de diversos cantos do mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de apresentar histórias e fotos de algumas das localizações que esses profissionais chamam de lar.
         </p>
       </section>
-    </main>
+
+      <!-- Seção Photo Grid -->
+      <section class="photo-grid page__section">
+       <img src="./images/photo-grid-item-1.jpg" alt="Foto 1" class="photo-grid__item" />
+       <img src="./images/photo-grid-item-2.jpg" alt="Foto 2" class="photo-grid__item" />
+       <img src="./images/photo-grid-item-3.jpg" alt="Foto 3" class="photo-grid__item" />
+       <img src="./images/photo-grid-item-4.jpg" alt="Foto 4" class="photo-grid__item" />
+       <img src="./images/photo-grid-item-5.jpg" alt="Foto 5" class="photo-grid__item" />
+       <img src="./images/photo-grid-item-6.jpg" alt="Foto 6" class="photo-grid__item" />
+       <img src="./images/photo-grid-item-7.jpg" alt="Foto 7" class="photo-grid__item" />
+       <img src="./images/photo-grid-item-8.jpg" alt="Foto 8" class="photo-grid__item" />
+      </section>
+
+      <!-- Seção Places -->
+      <section class="places page__section">
+        <!-- Lugar 1 -->
+        <article class="place">
+          <h2 class="place__title">Criccieth, País de Gales</h2>
+          <div class="place__website">
+            <span class="place__url-heading">ARTISTA</span>
+            <p class="place__artist">Steffan Warren, editor-chefe</p>
+            <p class="place__artist">Kseniya Bakhareva, gerente de projeto</p>
+          </div>
+          <img src="./images/place-criccieth.jpg" alt="Criccieth, País de Gales" class="place__image">
+          <div class="place__paragraphs">
+            <p class="place__paragraph">A ruína medieval do Castelo de Cricieth tem vista para a cidade abaixo de uma rocha que se projeta para o mar. Acredita-se que tenha sido construído por Llewelyn, o Grande, no século XIII. Cerca de 900 anos depois, a auto-intitulada *Pérola de Gales nas margens de Snowdonia* tornou-se um destino turístico popular durante os meses de verão.</p>
+            <p class="place__paragraph">A uma curta caminhada da estrada do castelo, você pode desfrutar do melhor sorvete do mundo no Cadwalader's, cujo ingrediente secreto, segundo rumores, são algas marinhas de origem local. Outra reivindicação à fama é o fato de que Criccieth ganhou o prêmio *Wales in Bloom* por cinco anos consecutivos por suas espetaculares exibições florais pela cidade. Foi também a casa de David Lloyd George, o único galês a ocupar o cargo de primeiro-ministro do Reino Unido</p>
+          </div>
+          <a href="https://opensea.io" target="_blank" class="place__button">Compre esta obra de arte como NFT</a>
+        </article>
+
+       <!-- Card: Berea -->
+        <article class="place">
+          <h2 class="place__title">Berea, EUA</h2>
+          <div class="place__artist">
+            <p class="place__artist-heading">ARTISTA</p>
+            <p class="place__artist-value">Travis Turner, autor e editor</p>
+          </div>
+          <img src="./images/place-barea.jpg" alt="Berea, EUA" class="place__image" />
+          <div class="place__paragraph">
+            <p>
+              Berea é uma pequena cidade localizada na parte central do Kentucky. A cidade é cercada por belas florestas e campos. É conhecida como a capital do artesanato do estado...
+            </p>
+          </div>
+          <a href="https://opensea.io" target="_blank" class="place__button">Compre esta obra de arte como NFT</a>
+        </article>
+
+        <!-- Card: Burundi -->
+        <article class="place">
+          <h2 class="place__title">Parque Nacional de Kibira</h2>
+          <div class="place__artist">
+            <p class="place__artist-heading">ARTISTA</p>
+            <p class="place__artist-value">Eric Kalisa, fotógrafo</p>
+          </div>
+          <img src="./images/place-burundi.jpg" alt="Parque Nacional de Kibira" class="place__image" />
+          <div class="place__paragraph">
+            <p>
+              O Parque Nacional de Kibira, uma das maiores reservas de vida selvagem para macacos, se sobrepõe a quatro províncias, incluindo Muramvya...
+            </p>
+          </div>
+          <a href="https://opensea.io" target="_blank" class="place__button">Compre esta obra de arte como NFT</a>
+        </article>
+
+        <!-- Card 5: Salvador -->
+        <article class="place">
+          <h2 class="place__title">Salvador, Brasil</h2>
+          <div class="place__artist">
+            <p class="place__artist-heading">ARTISTA</p>
+            <p class="place__artist-value">Edson Junior, desenvolvedor Web</p>
+          </div>
+          <img src="./images/minha-cidade.jpg" alt="Salvador, Brasil" class="place__image" />
+          <div class="place__paragraph">
+            <p>
+              Salvador, a capital da Bahia, é conhecida por sua rica cultura afro-brasileira, arquitetura colonial colorida e litoral deslumbrante. O centro histórico do Pelourinho, com suas ruas de paralelepípedos e igrejas barrocas, contrasta com a energia contagiante do Carnaval e a gastronomia única da cidade.
+            </p>
+          </div>
+          <a href="https://opensea.io" target="_blank" class="place__button">Compre esta obra de arte como NFT</a>
+        </article>
 
     <footer class="footer">
       <p class="footer__copyright">&copy; 2026. Gabriela Cavalcante</p>
